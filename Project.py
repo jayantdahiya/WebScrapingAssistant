@@ -28,7 +28,10 @@ def wishMe():
     else:
         speak("Good Evening!")
     
+    #Initial Message
+    print("I am your virtual assistant. How may I help you?")
     speak("I am your virtual assistant. How may I help you?")
+    
 
 def takeCommand():
     r = sr.Recognizer()
